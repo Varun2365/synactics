@@ -4,7 +4,7 @@
 /* COMMONS */
 html{
     scroll-behavior: smooth;
-    font-size: 20px
+    font-size: 19px
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -55,7 +55,7 @@ html{
     top: 0;
     z-index: 1000;
     /* filter: blur(30px); */
-    background-color: rgba(24, 0, 22, 0.89);
+    background-color: rgba(17, 0, 15, 0.932);
     /* box-shadow: 0px 2px 100px 10px rgba(0, 0, 0, 0.521); */
     backdrop-filter: blur(30px);
 }
@@ -225,7 +225,7 @@ nav li::after{
     align-items: center;
 }
 .h1{
-    font-weight: 500;
+    font-weight: 400;
     /* padding: 0 3rem; */
     /* text-decoration: underline;
     text-decoration-color: purple;
@@ -237,7 +237,8 @@ nav li::after{
 }
 .services h4{
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
+    padding-top: 1rem;
     font-size: 1rem;
     margin-top: 1rem;
 }
@@ -248,7 +249,8 @@ nav li::after{
     margin-top:3rem;
     color: #3d3d3d;
     text-align: justify;
-    width: 80%;
+    /* width: 1%; */
+    text-align: left;
 
     /* text-align: center; */
 }
@@ -355,6 +357,26 @@ sup{
     font-weight: 300;
     color: #202020;
     padding: 0 1rem;
+}
+.who-are-we{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whoh1{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15vh;
+}
+.whoh4{
+    padding: 1rem 5vw;
+    text-align: justify;
+    font-weight: 300;
+    color: #3d3d3d;
+    width: 80%;
+
 }
 .card-button{
     width: 70%;
@@ -586,6 +608,18 @@ bold{
 .about-us{
     height: auto;
     width: 100%;
+    padding-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.about-us-content{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 .about-us h1{
     font-size: 3rem;
@@ -700,6 +734,7 @@ li b{
     justify-content: center;
 
 }
+
 .pricing-card{
     height: 26em;
     width: 19rem;
@@ -778,9 +813,206 @@ li b{
 .card-heading{
     width: 100%;
 }
+.p90{
+    width: 80%;
+    text-align: justify;
+    padding: 0 5vw;
+    /* background-color: red; */
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(128, 0, 128, 0.678);
+}
+.contact{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-right{
+    width: 40%;
+    height: auto;
+    /* background-color: yellow; */
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.buttonflex{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+.buttonflex button{
+    background-color: rgb(19, 0, 24);
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    font-family: jost;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
 
+}
+checkbox:checked{
+    background-color: purple;
+}
+.buttonflex button:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.contact-left{
+    width: 50%;
+    height: 60vh;
+    /* background-color: red; */
+    color: rgb(194, 194, 194);
+    font-family: jost;
+    font-size: 2.5rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.nav-middle-ham{
+    display: none;
+}
+.hcontact{
+    font-weight: 400;
+    font-size: 5rem;
+    font-family: jost;
+    color: white;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: space-around;
+}
+input{
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border-radius: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.068);
+    font-family: jost;
+    font-size: 0.8rem;
+}
+.interested{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+textarea{
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.068);
+    font-family: jost;
+    font-size: 0.8rem;
+    resize: none;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    padding: 0 1rem;
+    font-weight: 300;
+}
 @media only screen and (max-width: 650px){
     html{
         font-size: 15px;
+    }
+    .home h1{
+        font-size: 6rem;
+    }
+    .home h4{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .nav-middle {
+        display: none;
+    }
+    .nav-middle-ham{
+        display: block;
+        height: 2rem;
+        width: 2rem;
+        background-image: url(images/hamburger-icon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 1025px){
+    html{
+        font-size: 16px;
+    }
+    .about-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-right{
+        padding-left: 0;
+        width: 80%;
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-right ul{
+        /* list-style: none; */
+    }
+
+}
+@media only screen and (max-width: 500px){
+    html{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1742px)
+{
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem;
+    }
+    .contact-left{
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .contact-left h4{
+        font-size: 5rem;
+    }
+    .contact-right{
+        padding: 3rem;
+        /* height: 50%; */
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1190px){
+    .contact-right{
+        width: 100%;
+    }
+    .contact{
+        padding: 3rem 0;
     }
 }
