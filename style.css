@@ -936,6 +936,100 @@ textarea{
     padding: 0 1rem;
     font-weight: 300;
 }
+.footer{
+    /* height: 30vh; */
+    padding: 4rem;
+    color: white;
+    width: 100%;
+    background: linear-gradient(black,rgb(0, 0, 0),black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    color: white;
+}
+#ham{
+    border: none;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+#toggle{
+
+    border: none;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+.cross{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    /* background-color: red; */
+    background-image: url(images/cross.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ham-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.ham-menu a{
+    padding: 2rem 1000rem;
+    color: white;
+    font-family: jost;
+    transition: all 0.3s ease-in-out, color
+    0.1s ease-in-out;
+    /* background-color: yellow; */
+}
+.ham-menu a:hover{
+    color: white;
+    background-color: rgb(37, 0, 37);
+}
+.footer p{
+    
+    font-family: jost;
+    font-weight: 300;
+    /* color: rgb(105, 0, 0); */
+}
+.insta{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 2rem;
+    background-image: url(images/insta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer h6{
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: jost;
+    color: rgb(196, 196, 196);
+    margin-top: 0.5rem;
+}
+.big{
+    font-size: 1rem;
+    color: white;
+    margin-top: 1.4rem ;
+}
 @media only screen and (max-width: 650px){
     html{
         font-size: 15px;
