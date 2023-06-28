@@ -348,50 +348,12 @@
     <div class="contact" id="contact">
         <div class="contact-left"><h4 class="hcontact">Have A Project?</h4>We would love to help.</div>
         <div class="contact-right">
-            <form action="">
-            <input type="text" name="Name" id="name" placeholder="Name">
-            <input type="text" name="phone" id="phone" placeholder="Phone Number">
-            <input type="email" name="Email-Id" id="email" placeholder="E-mail ID">
-            <input type="text" name="Estimated Budget" id="" placeholder="Your Budget">
-            <input type="text" name="Estimated Budget" id="" placeholder="Interested Field (WEB DESIGN, UI DESIGN ETC...)">
-            <textarea name="Description" id="" cols="20" rows="10" placeholder="Project Description"></textarea>
 
-            <!-- <div class="interested">
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">WEB DESIGN</h6>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">UI DESIGN</h6>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">GRAPHICS DESIGNING</h6>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">SEO</h6>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">WEB HOSTING</h6>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="Web">
-                    <h6 class="heading w400" style="padding-left: 0.5rem;">DIGITAL MARKETING</h6>
-                </div>
-            </div> -->
-            <div class="buttonflex">
 
-                <button onclick="submit()">SUBMIT</button>
-                <button>RESET</button>
-            </div>
-        </form>
-        </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOoAKuq-9CdgDrSJxONSz0ikI-mtqCMRAq2lhYLe1OQbfo0Q/viewform?embedded=true" width="640" height="1158" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>        </div>
     </div>
     <footer class="footer">
-        <p class="white">Copyright &copy; Synactics 2023. All Rights Reserved</p>
+        <p class="white">Copyright &copy; Synactics 2023</p>
         <br>
 
         <h6>Email ID: synactics.in@gmail.com</h6>
@@ -403,7 +365,20 @@
     </footer>
     <script>
         let ham = document.getElementById("ham-menu");
-
+        function fetch(){
+            let name = document.getElementById("form-name").value;
+            let phone = document.getElementById("phone").value;
+            let email = document.getElementById("email").value;
+            let budget = document.getElementById("budget").value;
+            let msg = document.getElementById("textarea").value;
+            let field = document.getElementById("field").value;
+            // body.style.backgroundcolor = "yellow";
+            console.log(name);
+            console.log(phone);
+            console.log(email);
+            console.log(msg);
+            console.log(field);
+        }
         function showMenu(){
             ham.style.display = "flex";
             setTimeout(() => {
