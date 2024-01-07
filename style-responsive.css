@@ -206,7 +206,7 @@
 }
 @media only screen and (max-width: 525px){
     html{
-        font-size: 13px;
+        font-size: 11px;
     }
     nav{
         height: 7vh;
