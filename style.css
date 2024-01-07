@@ -706,13 +706,13 @@ nav {
     color: white;
 }
 .personOne{
-    background-image: url(assets/images/avatar.png);
+    background-image: url(assets/images/girl.jpg);
 }
 .personTwo{
-    background-image: url(assets/images/avatar2.png);
+    background-image: url(assets/images/boy.jpg);
 }
 .personThree{
-    background-image: url(assets/images/avatar3.png);
+    background-image: url(assets/images/girl.jpg);
 }
 
 
