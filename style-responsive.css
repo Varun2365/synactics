@@ -181,7 +181,7 @@
         flex-basis: 100%;
     }
     .why-card{
-        flex-basis: 100%;
+        flex-basis: 80%;
         /* height: 45rem; */
     }
     .why-card-wrapper{
@@ -219,6 +219,9 @@
     }
     .test-card{
         height: 21rem;
+    }
+    .plan-card{
+        flex-basis: 80%;
     }
     .plans-head{
         font-size: 2rem;
