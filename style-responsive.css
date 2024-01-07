@@ -61,7 +61,7 @@
         padding-top: 4rem;
     }
     .main-home-right{
-        width: 90%;
+        width: 100%;
     }
  
     nav{
@@ -180,12 +180,17 @@
     .plan-card{
         flex-basis: 100%;
     }
+    nav{
+        height: 8vh;
+    }
     .why-card{
         flex-basis: 80%;
         /* height: 45rem; */
     }
     .why-card-wrapper{
         padding: 0 0;
+        align-items: center;
+        justify-content: center;
     }
     .test-wrapper{
         padding-left:1rem ;
