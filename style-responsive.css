@@ -216,6 +216,9 @@
     nav{
         height: 8vh;
     }
+    .why-card{
+        flex-basis: 100%;
+    }
     .heroHead{
         font-size: 3.7rem;
     }
